@@ -27,7 +27,7 @@ function App() {
       };
       return {
         ...prevState,
-        projects: [...prevState.projects],
+        projects: [...prevState.projects, newProject],
       };
     });
   }
